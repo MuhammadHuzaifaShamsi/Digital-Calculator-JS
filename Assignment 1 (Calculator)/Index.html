@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Digital Calculator</header>
+
+    <div class="calculator">
+        <div>
+            <input type="text" name="" id="abc">
+        </div>
+        <div class="underline">____________</div>
+        <br>
+        <div>
+            <button onclick="clr()">C</button>
+            <button class="null"> </button>
+            <button class="null"> </button>
+            <button onclick="cal('/')">/</button>
+        </div>
+        <div>
+            <button onclick="cal(7)">7</button>
+            <button onclick="cal(8)">8</button>
+            <button onclick="cal(9)">9</button>
+            <button onclick="cal('+')">+</button>
+        </div>
+        
+        <div>
+            <button onclick="cal(4)">4</button>
+            <button onclick="cal(5)">5</button>
+            <button onclick="cal(6)">6</button>
+            <button onclick="cal('-')">-</button>
+        </div>
+        
+        <div>
+            <button onclick="cal(1)">1</button>
+            <button onclick="cal(2)">2</button>
+            <button onclick="cal(3)">3</button>
+            <button onclick="cal('*')">x</button>
+        </div>
+        <div>
+            <button class="null"> </button>
+            <button onclick="cal(0)">0</button>
+            <button onclick="cal('.')">.</button>
+            <button class="equal-but" onclick="ans()">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

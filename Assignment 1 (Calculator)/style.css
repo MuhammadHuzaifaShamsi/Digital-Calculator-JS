@@ -1,0 +1,88 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://www.schemecolor.com/wallpaper?i=20638&desktop');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+}
+header{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.calculator{
+    min-height: 25rem;
+    min-width: 20rem;
+    max-width: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #343a40;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+#abc{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    width: 19rem;
+    height: 4rem;
+    text-align: right;
+    font-size: 2rem;
+}
+.underline{
+    color: yellow;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+.equal-but{
+    color: yellow;
+}
+
+button:hover{
+    border-radius: 0.3rem;
+    background-color: #FFFFFF1C;
+}
+.null:hover{
+    background-color: transparent;
+}
+
+
+@media (max-width: 399px) {
+    .calculator{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 347px) {
+    header{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+    button{
+        width: 4.5rem;
+    }
+}
